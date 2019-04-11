@@ -41,11 +41,9 @@ versioning usually involves:
 -  Listing and tracking every package available and installed on the
    system, none of which are directly tied to the current OS release.
 
-This can be done effectively, but given the nearly endless combinations of
-packages and versions of packages a server may have, it quickly becomes
-non-trivial to define what "version" the system is and what software it
-is running without explicitly going through each system and inspecting
-every package.
+Given the nearly endless combinations of packages and versions of packages, it
+becomes non-trivial to define what "version" the system is and what software
+it is running, without explicitly inspecting every package.
 
 With |CL|, we need track:
 
