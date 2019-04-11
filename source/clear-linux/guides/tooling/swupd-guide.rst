@@ -15,15 +15,15 @@ Description
 
 :command:`swupd` has two main functions:
 
-#. It manages software replacing APT or YUM, installing bundles
-   rather than packages.
-#. It checks for system updates and installs them.
+#. Manages software by installing bundles instead of packages, thus
+   replacing utilities like APT or YUM.
+#. Checks for system updates and installs them.
 
 :ref:`Bundles <bundles>` are the smallest granularity component that is
 managed by |CL| and contain everything needed to deliver a software
 capability. Rather than downloading a cascade of package dependencies when
 installing a piece of software, a bundle comes with all of its dependencies.
-:command:`swupd` manages overlapping dependencies behind the scenes ensuring
+:command:`swupd` manages overlapping dependencies behind the scenes, ensuring
 that all software is compatible across the system.
 
 Versioning
